@@ -18,17 +18,12 @@ function sumOfNumbers(arrayOfNumbers) {
   let i = 0;
   let sum = 0;
 
-
-
-
   while (i < length)
     {
       sum += arrayOfNumbers[i];
       i++;
     }
 return (sum);
-
-
 }
 assignment.sumOfNumbers = sumOfNumbers;
 
